@@ -11,5 +11,3 @@ const element = /*#__PURE__*/React.createElement("ul", {
   }
 }, /*#__PURE__*/React.createElement("li", null, sally), /*#__PURE__*/React.createElement("li", null, mark), /*#__PURE__*/React.createElement("li", null, holly), /*#__PURE__*/React.createElement("li", null, amol), /*#__PURE__*/React.createElement("li", null, robin), /*#__PURE__*/React.createElement("li", null, john));
 ReactDOM.render(element, document.getElementById('content'));
-
-//work done
