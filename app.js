@@ -11,8 +11,6 @@ const __dirname = path.dirname(__filename); // get the name of the directory
 // Set the 'public' folder as static
 app.use(express.static(path.join(__dirname, 'public')));
 
-//comment
-//app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res)=>{
     res.sendFile('/index.html');
